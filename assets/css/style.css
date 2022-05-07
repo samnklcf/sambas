@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  color: #e24d55;
+  color: #1D66C5;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e1444d;
+  background: #1D66C5;
   color: #fff;
 }
 
@@ -468,7 +468,7 @@ h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: ##1D66C5;
+  background: #1D66C5;
 }
 
 #hero .btn-get-started:hover {
@@ -503,6 +503,14 @@ h6 {
   #hero {
     height: 120vh;
   }
+}
+
+.btn-chaune {
+  background-color: #F7C957;
+}
+
+a .btn-chaune {
+  display: none;
 }
 
 /*--------------------------------------------------------------

@@ -2121,7 +2121,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 120px;
+  padding: 0 130px;
   z-index: 100;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid rgba(133, 133, 133, 0.239);
@@ -2144,9 +2144,23 @@ section {
 .prenav a {
   color: rgb(74, 74, 74);
   font-weight: 800;
- 
+
 }
 
-.reseau a {
-  
+.reseau a {}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.pere {
+  width: 300px;
+}
+
+.enfant,
+img {
+  width: 100%;
 }

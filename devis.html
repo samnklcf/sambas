@@ -1,13 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style4.css">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Les Sambas </title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/cssrapid_by_nk.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/lolo/logo-removebg-preview.png" type="image/x-icon">
 </head>
+
 <body>
+
+    <div class="prenav d-flex align-items-center sticky-lg-top container">
+        <div class="reseau">
+            <a href="#" class="facebook" style="text-decoration:underline; color:blue;">FR</i></a>
+            <a href="#" class="instagram">EN</i></a>
+        </div>
+
+        <div class="liens">
+            <a href="./SambaProf.html">Samba Professionnel</a>
+            <a href="./SambaKids.html">Samba Kids</a>
+            <a href="./SambaLivePro.html">Samba Live Pro</a>
+            <a href="./about.html" class="n btn-buy btn-outline-primary">Devenir Bénévole</a>
+        </div>
+
+
+    </div>
+    <header id="header" class="d-flex align-items-center sticky-top">
+
+        <div class="container d-flex align-items-center">
+            <a href="index.html" class="me-auto"><img src="./assets/img/lolo/logo-removebg-preview.png" alt=""
+                    class="truc"></a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <!-- -------------partie du logo ----------------- -->
+
+                    <li><a href="index.html" class="active">Accueil</a></li>
+
+                    <li class="dropdown"><a href="#"><span>Nos produits et sevices</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+
+                            <li><a href="./services.html">Consulting</a></li>
+                            <li><a href="./services.html">Formation</a></li>
+                            <li><a href="./services.html">Atelier</a></li>
+                            <li><a href="./services.html">Conférence</a></li>
+                            <li><a href="./services.html">Webinaire</a></li>
+                            <li><a href="./services.html">Livres</a></li>
+                            <li><a href="./services.html">Evenements</a></li>
+                            <li><a href="./services.html">Représentation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">Actualité</a></li>
+                    <li class="dropdown cako"><a href="#"><span>Nos Sambas</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="./SambaProf.html">Sambas Professionel</a></li>
+                            <li><a href="./SambaKids.html">SambasKis</a></li>
+                            <li><a href="./SambaLivePro.html">Sambas Live Pro</a></li>
+                        </ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">Apropos</a></li>
+
+
+                    <li><a href="index.html" class="getstarted dona">Donation</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+
+        </div>
+    </header><!-- Fin du header -->
     <main>
         <div class="container">
             <div class="form">
@@ -34,38 +114,105 @@
                         </select>
                         <div class="middle">
                             <div class="direction">
-                        <label for="nom">Nom</label>
-                        <input type="text" name="nom" id="nom">
-                    </div>
-                    <div class="direction">
-                        <label for="prenom">Prenom</label>
-                        <input type="text" name="montant" id="prenom">
-                    </div>
+                                <label for="nom">Nom</label>
+                                <input type="text" name="nom" id="nom">
+                            </div>
+                            <div class="direction">
+                                <label for="prenom">Prenom</label>
+                                <input type="text" name="montant" id="prenom">
+                            </div>
                         </div>
                         <label for="mail">Email</label>
                         <input type="email" name="mail" id="mail">
                         <label for="tel">Telephone</label>
-                        <input type="phone" name="tel" id="tel">   
+                        <input type="phone" name="tel" id="tel">
                     </div>
                     <div class="devis">
                         <div class="direction">
-                    <label for="Titre">Categorie</label>
-                        <select name="Titre" id="Titre">
-                            <option value="Mr">Cliquer pour derouler</option>
-                            <option value="Mr">Produits</option>
-                            <option value="Mr">Service</option>
-                        </select>
-                    </div>
-                    <div class="direction">
-                        <label for="Quantite">Nombre de participant</label>
-                        <input type="number" name="Quantite" id="Quantite">
-                    </div>
+                            <label for="Titre">Categorie</label>
+                            <select name="Titre" id="Titre">
+                                <option value="Mr">Cliquer pour derouler</option>
+                                <option value="Mr">Produits</option>
+                                <option value="Mr">Service</option>
+                            </select>
+                        </div>
+                        <div class="direction">
+                            <label for="Quantite">Nombre de participant</label>
+                            <input type="number" name="Quantite" id="Quantite">
+                        </div>
                     </div>
                     <button class="valider">Envoyer</button>
-                </div>
-                </form>
             </div>
+            </form>
+        </div>
         </div>
     </main>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3>Cordonnées</h3>
+                            <p>
+                                Ancienne Sobraga <br>
+                                Lbv Rue 3099, Gabon><br>
+                                <strong>Telephone:</strong>+341 74570040<br>
+                                <strong>Email:</strong> info@sambaslabs.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Liens importants</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">A propos de nous</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">contact</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Nos services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="./services.html">Webinaire</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="./services.html">Formations</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="./services.html">Consulting</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="./services.html">Evenements</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="./services.html">Ventes de livres</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Souscrivez pour accéder à nos actualité et nos évènements à venir</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="S'inscrire">
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Sailor</span></strong>. Tous droit reservés pas Ecole241
+            </div>
+            <div class="credits">
+                Designed by <a href="https://bootstrapmade.com/">Ecole 241</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
 </body>
+
 </html>

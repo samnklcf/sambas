@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1d66c5;
+    padding: 0.4rem;
+    margin-left: 4.5rem;
+    color: white;
+    width: 50%;
+    border-radius: 5px;
+}
+
+img {
+    width: 50px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}

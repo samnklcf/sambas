@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Desc_Devis{
+    text-align: justify;
+}
+.btn{
+    background-color: #1D66C5;
+    width: 100%;
+}
+h2{
+    font-weight: bold;
+}
+.enfant{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    text-align: center;
+}

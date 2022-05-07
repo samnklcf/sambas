@@ -2094,7 +2094,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #df3740;
+  background: #1D66C5;
 }
 
 #footer .copyright {
@@ -2229,6 +2229,13 @@ img {
 
 #mg-t {
   margin-top: 30px;
+
+}
+input {
+  outline: none;
+}
+.largeur{
+  width: 40px;
 }
 
 
